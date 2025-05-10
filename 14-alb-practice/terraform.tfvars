@@ -1,0 +1,7 @@
+aws_region = "us-east-1"
+aws_access_key = ""
+aws_secret_access_key = ""
+environment = "DEV"
+owner = "Rahul Gupta"
+instance_type = "t2.micro"
+key_name = "node1"
