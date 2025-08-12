@@ -1,9 +1,13 @@
 # Remote state 
 
 data "terraform_remote_state" "eks_cluster" {
-  backend = "local"  # or s3 or other, depending on your setup
+  backend = "s3"
   config = {
-    path = "../terraform.tfstate"  # Adjust path or S3 settings as per backend
+    bucket = ""
+    key    = ""
+    region = ""
+    access_key = ""
+    secret_key = ""
   }
 }
 
