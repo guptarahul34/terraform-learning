@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Testing Script Block
+        run: |
+          echo This is just for testing pupose.
